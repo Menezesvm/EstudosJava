@@ -34,6 +34,6 @@ Follow each project's README for exact versions and commands.
 - Email: vinicius.menezes2@ufrpe.br  
 - LinkedIn: https://www.linkedin.com/in/viniciusmenezes2
 
----
+--
 
 For deeper details, open the `estudos/` folder and review the project READMEs. If you'd like, I can add badges (build, Java version, license), shorten the recruiter-facing summary, or replace generic project names with the actual folder names and short descriptions.
