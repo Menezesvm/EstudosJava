@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/02- Intermediated Level/AccountBank/AccountBank.iml" filepath="$PROJECT_DIR$/02- Intermediated Level/AccountBank/AccountBank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02- Intermediated Level/Aluno/Aluno.iml" filepath="$PROJECT_DIR$/02- Intermediated Level/Aluno/Aluno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02- Intermediated Level/Cinema/Cinema.iml" filepath="$PROJECT_DIR$/02- Intermediated Level/Cinema/Cinema.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02- Intermediated Level/Dolar/Dolar.iml" filepath="$PROJECT_DIR$/02- Intermediated Level/Dolar/Dolar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02- Intermediated Level/Employee/Employee.iml" filepath="$PROJECT_DIR$/02- Intermediated Level/Employee/Employee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02- Intermediated Level/Employees/Employees.iml" filepath="$PROJECT_DIR$/02- Intermediated Level/Employees/Employees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02- Intermediated Level/Estudo vetores/Estudo vetores.iml" filepath="$PROJECT_DIR$/02- Intermediated Level/Estudo vetores/Estudo vetores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Estudos Java.iml" filepath="$PROJECT_DIR$/.idea/Estudos Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-Basic Level/Matriz/Matriz.iml" filepath="$PROJECT_DIR$/01-Basic Level/Matriz/Matriz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-Basic Level/Piloto/Piloto.iml" filepath="$PROJECT_DIR$/01-Basic Level/Piloto/Piloto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02- Intermediated Level/Primeiroprojeto/Primeiroprojeto.iml" filepath="$PROJECT_DIR$/02- Intermediated Level/Primeiroprojeto/Primeiroprojeto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02- Intermediated Level/Rent/Rent.iml" filepath="$PROJECT_DIR$/02- Intermediated Level/Rent/Rent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02- Intermediated Level/Retangulo/Retangulo.iml" filepath="$PROJECT_DIR$/02- Intermediated Level/Retangulo/Retangulo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02- Intermediated Level/SistemaBiblioteca/SistemaBiblioteca.iml" filepath="$PROJECT_DIR$/02- Intermediated Level/SistemaBiblioteca/SistemaBiblioteca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-Basic Level/SistemaCaixaEletronico/SistemaCaixaEletronico.iml" filepath="$PROJECT_DIR$/01-Basic Level/SistemaCaixaEletronico/SistemaCaixaEletronico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-Basic Level/primeiro-projeto/primeiro-projeto.iml" filepath="$PROJECT_DIR$/01-Basic Level/primeiro-projeto/primeiro-projeto.iml" />
+    </modules>
+  </component>
+</project>
