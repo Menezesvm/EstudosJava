@@ -7,14 +7,11 @@ If you're a recruiter or hiring manager: the `estudos/` folder contains the full
 ## Quick highlights
 
 - Language focus: Java (core, OOP, concurrency)
-- Common technologies showcased: Spring Boot, RESTful APIs, Maven/Gradle, JUnit/Mockito, JDBC/JPA (Hibernate), Docker, and basic SQL.
-- Quality: emphasis on readable code, modular design, unit/integration tests, and clear project READMEs so anyone can run the projects locally.
+
 
 ## Featured projects (examples)
 - 01-Basic Level/Piloto — VS Code Java starter workspace and small exercises. See `01-Basic Level/Piloto/README.md` for details.
-- Project A — clean REST API demonstrating domain modeling, DTOs, layered architecture, and tests.
-- Project B — small data-processing or algorithmic exercise showing problem-solving and performance considerations.
-- Project C — integration/example using a database and basic persistence with JPA.
+
 
 Each project folder includes a README with setup and run instructions.
 
