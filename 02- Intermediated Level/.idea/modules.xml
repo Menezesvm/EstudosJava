@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/02- Intermediated Level.iml" filepath="$PROJECT_DIR$/.idea/02- Intermediated Level.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AccountBank/AccountBank.iml" filepath="$PROJECT_DIR$/AccountBank/AccountBank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aluno/Aluno.iml" filepath="$PROJECT_DIR$/Aluno/Aluno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cinema/Cinema.iml" filepath="$PROJECT_DIR$/Cinema/Cinema.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Composition/Composition.iml" filepath="$PROJECT_DIR$/Composition/Composition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DateTime/DateTime.iml" filepath="$PROJECT_DIR$/DateTime/DateTime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dolar/Dolar.iml" filepath="$PROJECT_DIR$/Dolar/Dolar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Employee/Employee.iml" filepath="$PROJECT_DIR$/Employee/Employee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Employees/Employees.iml" filepath="$PROJECT_DIR$/Employees/Employees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Estudo vetores/Estudo vetores.iml" filepath="$PROJECT_DIR$/Estudo vetores/Estudo vetores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Primeiroprojeto/Primeiroprojeto.iml" filepath="$PROJECT_DIR$/Primeiroprojeto/Primeiroprojeto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Rent/Rent.iml" filepath="$PROJECT_DIR$/Rent/Rent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Retangulo/Retangulo.iml" filepath="$PROJECT_DIR$/Retangulo/Retangulo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SistemaBiblioteca/SistemaBiblioteca.iml" filepath="$PROJECT_DIR$/SistemaBiblioteca/SistemaBiblioteca.iml" />
+    </modules>
+  </component>
+</project>
