@@ -75,7 +75,7 @@ Cada projeto possui sua própria pasta `src/`. Para compilar e rodar manualmente
 # Exemplo genérico (ajuste os pacotes/caminhos conforme o projeto)
 cd "NomeDoProjeto"
 javac -d bin $(find src -name "*.java")
-java -cp bin application.Program   # ou o nome da classe principal (Main.java)
+java -cp bin application.application.Program   # ou o nome da classe principal (application.Program.java)
 ```
 
 Ou abra a pasta diretamente na sua IDE (IntelliJ IDEA, VS Code com extensão Java, Eclipse) e execute a classe que contém o método `main` — geralmente localizada em `src/application/Program.java` ou `src/application/Main.java` (alguns projetos mais antigos usam `Application` com "A" maiúsculo).

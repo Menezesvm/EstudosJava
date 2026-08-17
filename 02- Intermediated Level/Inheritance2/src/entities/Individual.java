@@ -18,6 +18,7 @@ public class Individual extends TaxPrayer{
     public void setHealthExpendicture(Double healthExpenditure) {
         this.healthExpenditure = healthExpenditure;
     }
+
     @Override
     public Double tax() {
         if (getAnualIncome() < 20000.00) {
