@@ -2,7 +2,7 @@
 
 ## Overview
 
-This folder contains the foundational Java programming studies and exercises, designed to build a solid understanding of core concepts in Java development. The content progresses from basic syntax and control structures to simple object-oriented principles and practical system implementations.
+This folder contains the foundational Java programming studies and exercises, designed to build a solid understanding of core concepts in Java development. The content progresses from basic syntax and control structures to simple object-oriented principles, arrays/matrices, and practical system implementations.
 
 ## What You'll Learn
 
@@ -13,6 +13,7 @@ This learning path covers:
 - **Control Structures**: Conditional statements (if/else, switch/case) and repetitive loops
 - **String Manipulation**: Working with strings and their methods
 - **Functions and Methods**: Structuring code with reusable methods
+- **Arrays and Matrices**: Working with one and two-dimensional arrays
 - **Practical Applications**: Building real-world systems with menus and state management
 
 ## Folder Structure
@@ -68,6 +69,21 @@ This project implements:
 
 ---
 
+### 📁 **Matriz** (Matrix)
+**Purpose**: Practicing two-dimensional arrays (matrices)
+
+This exercise covers:
+- Declaring and populating an `n x n` matrix from user input (`Scanner`)
+- Nested loops to traverse rows and columns
+- Extracting the main diagonal of a square matrix
+- Counting elements that satisfy a condition (negative numbers)
+
+**Best for**: Getting comfortable with 2D arrays and nested-loop logic before moving into collections
+
+**📖 File: [`Matriz/src/application/Main.java`](Matriz/src/application/Main.java)**
+
+---
+
 ## Learning Progression
 
 1. **Start with `primeiro-projeto`**
@@ -85,6 +101,11 @@ This project implements:
    - Implement proper transaction handling
    - Master user authentication and data validation
 
+4. **Practice with `Matriz`**
+   - Work with two-dimensional arrays
+   - Strengthen nested-loop logic
+   - Prepare for arrays of objects, seen later in `02-Intermediate Level`
+
 ## Key Concepts Covered
 
 | Concept | Description |
@@ -97,6 +118,7 @@ This project implements:
 | **State Management** | Using static variables to maintain program state |
 | **User Interface** | Creating menu-driven applications |
 | **Error Handling** | Validating input and handling edge cases |
+| **Arrays / Matrices** | Working with 1D arrays and 2D matrices, nested loops |
 
 ## How to Run
 
@@ -124,19 +146,19 @@ Or use your preferred IDE (IntelliJ IDEA, VS Code with Java extensions, Eclipse,
 
 ## Quick Project Comparison
 
-| Feature | primeiro-projeto | Piloto | SistemaCaixaEletronico |
-|---------|------------------|--------|----------------------|
-| **Focus** | Fundamentals | Application Structure | Complex State Management |
-| **Difficulty** | ⭐ Beginner | ⭐⭐ Intermediate | ⭐⭐⭐ Intermediate |
-| **Files** | 9 Java classes | 1 Java class | 1 Java class |
-| **Lines of Code** | ~200 per file | ~200 | ~200 |
-| **Topics** | 8 concepts | State & Menus | Transactions & Validation |
-| **Time** | 1-2 weeks | 1-2 weeks | 2-3 weeks |
+| Feature | primeiro-projeto | Piloto | SistemaCaixaEletronico | Matriz |
+|---------|------------------|--------|----------------------|--------|
+| **Focus** | Fundamentals | Application Structure | Complex State Management | Arrays / Matrices |
+| **Difficulty** | ⭐ Beginner | ⭐⭐ Intermediate | ⭐⭐⭐ Intermediate | ⭐⭐ Intermediate |
+| **Files** | 9 Java classes | 1 Java class | 1 Java class | 1 Java class |
+| **Lines of Code** | ~200 per file | ~200 | ~200 | ~40 |
+| **Topics** | 8 concepts | State & Menus | Transactions & Validation | 2D Arrays & Loops |
+| **Time** | 1-2 weeks | 1-2 weeks | 2-3 weeks | Few days |
 
 ## Next Steps
 
 After completing all projects in this folder:
-- Move to intermediate-level Java concepts (Object-Oriented Programming)
+- Move to intermediate-level Java concepts (Object-Oriented Programming) — see [`02-Intermediate Level`](../02-%20Intermediated%20Level/README%20-%2002-Intermediate%20Level.md)
 - Learn about classes, inheritance, and polymorphism
 - Explore collections and data structures
 - Study exception handling in depth
@@ -153,14 +175,14 @@ After completing all projects in this folder:
 
 ## Best Practices to Remember
 
-✅ Use meaningful variable and method names  
-✅ Write comments for complex logic  
-✅ Validate user input before processing  
-✅ Test edge cases and error scenarios  
-✅ Keep methods focused on single responsibility  
-✅ Close resources (Scanner, files, etc.)  
-✅ Follow consistent code formatting  
-✅ Build incrementally and test frequently  
+✅ Use meaningful variable and method names
+✅ Write comments for complex logic
+✅ Validate user input before processing
+✅ Test edge cases and error scenarios
+✅ Keep methods focused on single responsibility
+✅ Close resources (Scanner, files, etc.)
+✅ Follow consistent code formatting
+✅ Build incrementally and test frequently
 
 ## Troubleshooting
 
@@ -178,10 +200,10 @@ After completing all projects in this folder:
 
 ---
 
-**Repository**: Menezesvm/Estudos  
-**Language**: Java 100%  
-**Status**: ✅ Complete with exercises and projects  
-**Created**: For structured Java learning  
+**Repository**: Menezesvm/EstudosJava
+**Language**: Java 100%
+**Status**: ✅ Complete with exercises and projects
+**Created**: For structured Java learning
 **Last Updated**: 2026
 
 Start with [primeiro-projeto](primeiro-projeto/README.md) and progress through each project at your own pace! 🚀

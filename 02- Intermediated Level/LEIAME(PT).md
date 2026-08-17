@@ -32,6 +32,7 @@ Cada subpasta é um mini-projeto independente (com sua própria pasta `src/`), r
 | [`Estudo vetores`](Estudo%20vetores) | Vetores/Arrays de objetos | Leitura de N produtos via `Scanner` e cálculo da média de preços usando um array de `Product`. |
 | [`Inheritance`](Inheritance) | **Herança** + `@Override` | Hierarquia `Account` → `BusinessAccount` (com limite de crédito e taxa de saque) e `SavingsAccount` (conta poupança com taxa de juros). |
 | [`Inheritance1`](Inheritance1) | **Herança** + Polimorfismo | Hierarquia `Product` → `ImportedProduct` (com taxa de importação) e `UsedProduct` (com data de fabricação), cada um sobrescrevendo `priceTag()`. |
+| [`Inheritance2`](Inheritance2) | **Classe abstrata** + Polimorfismo | Hierarquia `TaxPrayer` (abstrata) → `Individual` e `Company`, cada uma calculando o imposto (`tax()`) com sua própria regra; usa `List<TaxPrayer>` para somar o total arrecadado. |
 | [`Primeiroprojeto`](Primeiroprojeto) | Sistema de menu (procedural) | Sistema de biblioteca simples usando variáveis estáticas para armazenar o estado de um único livro (cadastrar, emprestar, devolver). |
 | [`Rent`](Rent) | Vetores de objetos | Cadastro de aluguel de quartos usando um array de `Rent`, indexado pelo número do quarto. |
 | [`Retangulo`](Retangulo) | Encapsulamento básico | Classe `Retangulo` com cálculo de área, perímetro e diagonal. |
@@ -46,9 +47,10 @@ Cada subpasta é um mini-projeto independente (com sua própria pasta `src/`), r
 3. **Vetores de objetos** — `Estudo vetores`, `Rent`: agrupar múltiplos objetos em arrays e processá-los em laços.
 4. **Coleções dinâmicas** — `Employees`: migrar de arrays fixos para `ArrayList`, incluindo uso de `Stream` para busca.
 5. **Herança e polimorfismo** — `Inheritance`, `Inheritance1`: criar subclasses especializadas e sobrescrever comportamentos com `@Override`.
-6. **Composição** — `Composition`: montar objetos complexos a partir de outros objetos (pedido → itens → produto) e usar `enum` para representar estados.
-7. **Datas e horários** — `DateTime`: comparar a API antiga (`Date`) usada em `Composition` com a API moderna (`java.time`) usada em `DateTime` e `Inheritance1`.
-8. **Sistemas completos** — `Primeiroprojeto` → `SistemaBiblioteca`: comparar a mesma aplicação resolvida de forma procedural e depois orientada a objetos.
+6. **Classes abstratas** — `Inheritance2`: dar um passo além da herança "comum", definindo um método `abstract` (`tax()`) que obriga cada subclasse (`Individual`, `Company`) a fornecer sua própria implementação — uma introdução ao conceito de contrato/polimorfismo forçado, que antecede o estudo de interfaces.
+7. **Composição** — `Composition`: montar objetos complexos a partir de outros objetos (pedido → itens → produto) e usar `enum` para representar estados.
+8. **Datas e horários** — `DateTime`: comparar a API antiga (`Date`) usada em `Composition` com a API moderna (`java.time`) usada em `DateTime` e `Inheritance1`.
+9. **Sistemas completos** — `Primeiroprojeto` → `SistemaBiblioteca`: comparar a mesma aplicação resolvida de forma procedural e depois orientada a objetos.
 
 ## Conceitos-chave abordados
 
@@ -56,8 +58,9 @@ Cada subpasta é um mini-projeto independente (com sua própria pasta `src/`), r
 |---|---|
 | **Encapsulamento** (atributos privados + getters/setters) | Quase todos os projetos |
 | **Sobrecarga de construtores** | `AccountBank` |
-| **Herança (`extends`, `super`)** | `Inheritance`, `Inheritance1` |
-| **Polimorfismo / `@Override`** | `Inheritance`, `Inheritance1`, `Composition` (`toString`) |
+| **Herança (`extends`, `super`)** | `Inheritance`, `Inheritance1`, `Inheritance2` |
+| **Classe abstrata (`abstract class`, método `abstract`)** | `Inheritance2` |
+| **Polimorfismo / `@Override`** | `Inheritance`, `Inheritance1`, `Inheritance2`, `Composition` (`toString`) |
 | **Composição de objetos** | `Composition` |
 | **Enums** | `Composition` (`OrderStatus`) |
 | **Coleções (`ArrayList`, `List`)** | `Employees`, `SistemaBiblioteca` |
@@ -84,7 +87,7 @@ Ou abra a pasta diretamente na sua IDE (IntelliJ IDEA, VS Code com extensão Jav
 
 Depois de concluir esta pasta, os próximos temas naturais para continuar a trilha de estudos são:
 
-- Interfaces e classes abstratas
+- Interfaces (aprofundando o que `Inheritance2` começou com classes abstratas)
 - Tratamento de exceções (`try/catch`, exceções customizadas)
 - Generics
 - Coleções mais avançadas (`Map`, `Set`) e ordenação (`Comparable`/`Comparator`)
