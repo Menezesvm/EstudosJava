@@ -18,7 +18,7 @@ classDiagram
         -List~OrderItem~ items
         +addItem(item) void
         +removeItem(item) void
-        +Total() double
+        +total() double
     }
 
     class OrderItem {
@@ -49,4 +49,3 @@ classDiagram
 
 **Ponto-chave:** repare no `*--` entre `Order` e `OrderItem` — é composição forte: um `OrderItem` não faz sentido sem existir dentro de um `Order`. Já `OrderItem --> Product` é uma associação mais fraca: o mesmo `Product` pode estar em vários pedidos diferentes.
 
-> Observação: o método `Total()` está com inicial maiúscula, fora do padrão de nomenclatura Java (camelCase começa com minúscula). Vale ajustar para `total()`.
