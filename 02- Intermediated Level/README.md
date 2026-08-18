@@ -20,7 +20,7 @@ Each subfolder is an independent mini-project (with its own `src/` folder), repr
 
 ## Folder Structure
 
-| Project | Main concept | Description |
+| Project | application.Program concept | Description |
 |---|---|---|
 | [`AccountBank`](AccountBank) | Encapsulation / Constructor overloading | Bank account with two constructors (with and without an initial deposit), deposit, and withdrawal with a fixed $5 fee. |
 | [`Aluno`](Aluno) | Basic encapsulation | `Student` class that calculates the final grade (sum of 3 grades) and the points missing to reach a passing average of 60. |
@@ -79,7 +79,7 @@ Each project has its own `src/` folder. To compile and run manually:
 # Generic example (adjust packages/paths per project)
 cd "ProjectName"
 javac -d bin $(find src -name "*.java")
-java -cp bin application.Program   # or the main class name (Main.java)
+java -cp bin application.application.Program   # or the main class name (application.Program.java)
 ```
 
 Or open the folder directly in your IDE (IntelliJ IDEA, VS Code with the Java extension, Eclipse) and run the class containing the `main` method — usually located at `src/application/Program.java` or `src/application/Main.java` (some older projects use `Application` with an uppercase "A").

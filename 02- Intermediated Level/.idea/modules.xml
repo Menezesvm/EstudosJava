@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/Aluno/Aluno.iml" filepath="$PROJECT_DIR$/Aluno/Aluno.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cinema/Cinema.iml" filepath="$PROJECT_DIR$/Cinema/Cinema.iml" />
       <module fileurl="file://$PROJECT_DIR$/Composition/Composition.iml" filepath="$PROJECT_DIR$/Composition/Composition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interfaces/Contracts.iml" filepath="$PROJECT_DIR$/Interfaces/Contracts.iml" />
       <module fileurl="file://$PROJECT_DIR$/DateTime/DateTime.iml" filepath="$PROJECT_DIR$/DateTime/DateTime.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dolar/Dolar.iml" filepath="$PROJECT_DIR$/Dolar/Dolar.iml" />
       <module fileurl="file://$PROJECT_DIR$/Employee/Employee.iml" filepath="$PROJECT_DIR$/Employee/Employee.iml" />
