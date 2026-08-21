@@ -1,8 +1,8 @@
 package entities;
 
 public class Product implements Comparable<Product>{
-    private String name;
-    private Double price;
+    private final String name;
+    private final Double price;
 
    public Product(String name, double price){
        this.name=name;
