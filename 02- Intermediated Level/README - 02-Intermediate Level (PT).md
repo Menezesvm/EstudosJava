@@ -10,6 +10,9 @@ Cada subpasta é um mini-projeto independente (com sua própria pasta `src/`), r
 
 - **Encapsulamento e modelagem de entidades**: classes com atributos privados, getters/setters e validação de dados
 - **Herança e polimorfismo**: hierarquias de classes com `extends`, `super` e sobrescrita de métodos (`@Override`)
+- **Classes abstratas**: métodos `abstract` que forçam subclasses a implementar seu próprio comportamento
+- **Interfaces**: contratos 100% abstratos (`implements`) usados para desacoplar regras de negócio de suas implementações concretas
+- **Tratamento de exceções**: exceções customizadas (`RuntimeException`) e blocos `try/catch` para tratar erros de regra de negócio
 - **Composição**: relacionamento "tem-um" entre objetos (ex.: um pedido que contém itens, que contêm produtos)
 - **Enums**: representação de estados fixos (ex.: status de um pedido)
 - **Coleções**: uso de `ArrayList`/`List` para gerenciar grupos de objetos
@@ -30,9 +33,11 @@ Cada subpasta é um mini-projeto independente (com sua própria pasta `src/`), r
 | [`Employee`](Employee) | Encapsulamento básico | Classe `Employee` (pacote `Salary`) com cálculo de salário líquido e reajuste percentual. |
 | [`Employees`](Employees) | **Coleções** (`List`) + Streams | Cadastro de vários funcionários em uma lista, validação de ID duplicado e reajuste salarial usando `Stream`. |
 | [`Estudo vetores`](Estudo%20vetores) | Vetores/Arrays de objetos | Leitura de N produtos via `Scanner` e cálculo da média de preços usando um array de `Product`. |
+| [`ExceptionHandling`](ExceptionHandling) | **Tratamento de exceções** | Conta bancária com saque (`withdraw`) que lança uma exceção customizada (`BusinessExceptions`, que estende `RuntimeException`) quando o valor excede o limite de saque ou o saldo disponível; erro tratado com `try/catch` no `Program`. |
 | [`Inheritance`](Inheritance) | **Herança** + `@Override` | Hierarquia `Account` → `BusinessAccount` (com limite de crédito e taxa de saque) e `SavingsAccount` (conta poupança com taxa de juros). |
 | [`Inheritance1`](Inheritance1) | **Herança** + Polimorfismo | Hierarquia `Product` → `ImportedProduct` (com taxa de importação) e `UsedProduct` (com data de fabricação), cada um sobrescrevendo `priceTag()`. |
 | [`Inheritance2`](Inheritance2) | **Classe abstrata** + Polimorfismo | Hierarquia `TaxPrayer` (abstrata) → `Individual` e `Company`, cada uma calculando o imposto (`tax()`) com sua própria regra; usa `List<TaxPrayer>` para somar o total arrecadado. |
+| [`Interfaces`](Interfaces) | **Interface** (`implements`) | Sistema de contratos parcelados: a interface `OnlinePaymentService` define os métodos `paymentFee()` e `interest()`, implementados por `PaypalService`; `ContractService` usa a interface para calcular as parcelas (`Installment`) de um `Contract`, sem depender de uma implementação concreta. |
 | [`Primeiroprojeto`](Primeiroprojeto) | Sistema de menu (procedural) | Sistema de biblioteca simples usando variáveis estáticas para armazenar o estado de um único livro (cadastrar, emprestar, devolver). |
 | [`Rent`](Rent) | Vetores de objetos | Cadastro de aluguel de quartos usando um array de `Rent`, indexado pelo número do quarto. |
 | [`Retangulo`](Retangulo) | Encapsulamento básico | Classe `Retangulo` com cálculo de área, perímetro e diagonal. |
@@ -48,9 +53,11 @@ Cada subpasta é um mini-projeto independente (com sua própria pasta `src/`), r
 4. **Coleções dinâmicas** — `Employees`: migrar de arrays fixos para `ArrayList`, incluindo uso de `Stream` para busca.
 5. **Herança e polimorfismo** — `Inheritance`, `Inheritance1`: criar subclasses especializadas e sobrescrever comportamentos com `@Override`.
 6. **Classes abstratas** — `Inheritance2`: dar um passo além da herança "comum", definindo um método `abstract` (`tax()`) que obriga cada subclasse (`Individual`, `Company`) a fornecer sua própria implementação — uma introdução ao conceito de contrato/polimorfismo forçado, que antecede o estudo de interfaces.
-7. **Composição** — `Composition`: montar objetos complexos a partir de outros objetos (pedido → itens → produto) e usar `enum` para representar estados.
-8. **Datas e horários** — `DateTime`: comparar a API antiga (`Date`) usada em `Composition` com a API moderna (`java.time`) usada em `DateTime` e `Inheritance1`.
-9. **Sistemas completos** — `Primeiroprojeto` → `SistemaBiblioteca`: comparar a mesma aplicação resolvida de forma procedural e depois orientada a objetos.
+7. **Interfaces** — `Interfaces`: dar mais um passo além das classes abstratas, definindo um contrato 100% abstrato (`OnlinePaymentService`) implementado por `PaypalService`, permitindo trocar a forma de pagamento sem alterar `ContractService`.
+8. **Composição** — `Composition`: montar objetos complexos a partir de outros objetos (pedido → itens → produto) e usar `enum` para representar estados.
+9. **Datas e horários** — `DateTime`: comparar a API antiga (`Date`) usada em `Composition` com a API moderna (`java.time`) usada em `DateTime`, `Inheritance1` e `Interfaces`.
+10. **Tratamento de exceções** — `ExceptionHandling`: criar uma exceção customizada (`BusinessExceptions`) e usar `try/catch` para lidar com violações de regras de negócio (ex.: saque acima do limite ou do saldo).
+11. **Sistemas completos** — `Primeiroprojeto` → `SistemaBiblioteca`: comparar a mesma aplicação resolvida de forma procedural e depois orientada a objetos.
 
 ## Conceitos-chave abordados
 
@@ -60,15 +67,17 @@ Cada subpasta é um mini-projeto independente (com sua própria pasta `src/`), r
 | **Sobrecarga de construtores** | `AccountBank` |
 | **Herança (`extends`, `super`)** | `Inheritance`, `Inheritance1`, `Inheritance2` |
 | **Classe abstrata (`abstract class`, método `abstract`)** | `Inheritance2` |
-| **Polimorfismo / `@Override`** | `Inheritance`, `Inheritance1`, `Inheritance2`, `Composition` (`toString`) |
+| **Interface (`interface`, `implements`)** | `Interfaces` |
+| **Polimorfismo / `@Override`** | `Inheritance`, `Inheritance1`, `Inheritance2`, `Interfaces`, `Composition` (`toString`) |
 | **Composição de objetos** | `Composition` |
 | **Enums** | `Composition` (`OrderStatus`) |
-| **Coleções (`ArrayList`, `List`)** | `Employees`, `SistemaBiblioteca` |
+| **Coleções (`ArrayList`, `List`)** | `Employees`, `SistemaBiblioteca`, `Interfaces` (lista de parcelas) |
 | **Streams / expressões lambda** | `Employees` |
 | **Arrays de objetos** | `Estudo vetores`, `Rent` |
 | **Métodos e atributos estáticos** | `Dolar`, `Primeiroprojeto` |
-| **Manipulação de datas (legada e moderna)** | `Composition` (`Date`), `DateTime` e `Inheritance1` (`java.time`) |
-| **Validação de entrada e regras de negócio** | `Cinema`, `SistemaBiblioteca`, `Livro` |
+| **Manipulação de datas (legada e moderna)** | `Composition` (`Date`), `DateTime`, `Inheritance1` e `Interfaces` (`java.time`) |
+| **Exceções customizadas (`extends RuntimeException`)** | `ExceptionHandling` |
+| **Validação de entrada e regras de negócio** | `Cinema`, `SistemaBiblioteca`, `Livro`, `ExceptionHandling` |
 
 ## Como executar os projetos
 
@@ -78,7 +87,11 @@ Cada projeto possui sua própria pasta `src/`. Para compilar e rodar manualmente
 # Exemplo genérico (ajuste os pacotes/caminhos conforme o projeto)
 cd "NomeDoProjeto"
 javac -d bin $(find src -name "*.java")
+<<<<<<< HEAD:02- Intermediated Level/LEIAME(PT).md
 java -cp bin application.application.application.application.application.Program   # ou o nome da classe principal (application.application.application.application.Program.java)
+=======
+java -cp bin application.Program   # ou o nome da classe principal (Main.java)
+>>>>>>> 70368d2fe610044a68ced1b9944e8c29b976be23:02- Intermediated Level/README - 02-Intermediate Level (PT).md
 ```
 
 Ou abra a pasta diretamente na sua IDE (IntelliJ IDEA, VS Code com extensão Java, Eclipse) e execute a classe que contém o método `main` — geralmente localizada em `src/application/Program.java` ou `src/application/Main.java` (alguns projetos mais antigos usam `Application` com "A" maiúsculo).
@@ -87,8 +100,7 @@ Ou abra a pasta diretamente na sua IDE (IntelliJ IDEA, VS Code com extensão Jav
 
 Depois de concluir esta pasta, os próximos temas naturais para continuar a trilha de estudos são:
 
-- Interfaces (aprofundando o que `Inheritance2` começou com classes abstratas)
-- Tratamento de exceções (`try/catch`, exceções customizadas)
+- Interfaces (aprofundando o que `Inheritance2` começou com classes abstratas — já vista em `Interfaces`)
 - Generics
 - Coleções mais avançadas (`Map`, `Set`) e ordenação (`Comparable`/`Comparator`)
 - Testes unitários (JUnit)
