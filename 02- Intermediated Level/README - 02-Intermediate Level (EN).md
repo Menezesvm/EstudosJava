@@ -22,11 +22,8 @@ Each subfolder is an independent mini-project (with its own `src/` folder), repr
 
 ## Folder Structure
 
-<<<<<<< HEAD:02- Intermediated Level/README.md
-| Project | application.application.application.Program concept | Description |
-=======
+
 | Project | Main concept | Description |
->>>>>>> 70368d2fe610044a68ced1b9944e8c29b976be23:02- Intermediated Level/README - 02-Intermediate Level (EN).md
 |---|---|---|
 | [`AccountBank`](AccountBank) | Encapsulation / Constructor overloading | Bank account with two constructors (with and without an initial deposit), deposit, and withdrawal with a fixed $5 fee. |
 | [`Aluno`](Aluno) | Basic encapsulation | `Student` class that calculates the final grade (sum of 3 grades) and the points missing to reach a passing average of 60. |
