@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/02- Intermediated Level.iml" filepath="$PROJECT_DIR$/.idea/02- Intermediated Level.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../03-Advanced Level/03-Advanced Level.iml" filepath="$PROJECT_DIR$/../03-Advanced Level/03-Advanced Level.iml" />
       <module fileurl="file://$PROJECT_DIR$/AccountBank/AccountBank.iml" filepath="$PROJECT_DIR$/AccountBank/AccountBank.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aluno/Aluno.iml" filepath="$PROJECT_DIR$/Aluno/Aluno.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cinema/Cinema.iml" filepath="$PROJECT_DIR$/Cinema/Cinema.iml" />
@@ -14,6 +15,8 @@
       <module fileurl="file://$PROJECT_DIR$/Employees/Employees.iml" filepath="$PROJECT_DIR$/Employees/Employees.iml" />
       <module fileurl="file://$PROJECT_DIR$/Estudo vetores/Estudo vetores.iml" filepath="$PROJECT_DIR$/Estudo vetores/Estudo vetores.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" filepath="$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../03-Advanced Level/Generics1/Generics1.iml" filepath="$PROJECT_DIR$/../03-Advanced Level/Generics1/Generics1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../03-Advanced Level/Generics2/Generics2.iml" filepath="$PROJECT_DIR$/../03-Advanced Level/Generics2/Generics2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inheritance1/Inheritance1.iml" filepath="$PROJECT_DIR$/Inheritance1/Inheritance1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inheritance2/Inheritance2.iml" filepath="$PROJECT_DIR$/Inheritance2/Inheritance2.iml" />
