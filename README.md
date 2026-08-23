@@ -6,7 +6,7 @@ If you're a recruiter or hiring manager: quick highlights are below so you can e
 
 ## Quick highlights
 
-- Language focus: Java (core, OOP, generics, exception handling)
+- Language focus: Java (core, OOP, generics, collections — `Set`/`Map`, exception handling)
 - Depth-over-speed approach: each topic is studied in detail, including custom README files with UML/class diagrams for the most conceptually rich exercises
 - Currently progressing toward Spring Boot, backed by a structured study roadmap
 
@@ -18,7 +18,7 @@ The repository is organized by learning level:
 |---|---|
 | [`01-Basic Level`](01-Basic%20Level) | Fundamentals: syntax, control flow, basic OOP, small procedural exercises |
 | [`02- Intermediated Level`](02-%20Intermediated%20Level) | Encapsulation, inheritance, composition, interfaces, exception handling, collections |
-| [`03-Advanced Level`](03-Advanced%20Level) | Generics, bounded types |
+| [`03-Advanced Level`](03-Advanced%20Level) | Generics, bounded types, collections (`Set`, `Map`) |
 
 ## Featured projects
 
@@ -58,4 +58,5 @@ I'm looking for backend Java opportunities — internships, junior-level roles, 
 ---
 
 For deeper details, open each level's folder and review the individual project READMEs.
+
 
