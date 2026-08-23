@@ -23,20 +23,20 @@ Each subfolder is an independent mini-project (with its own `src/` folder), repr
 ## Folder Structure
 
 
-| Project | Main concept | Description |
+| Project | application.application.Program concept | Description |
 |---|---|---|
 | [`AccountBank`](AccountBank) | Encapsulation / Constructor overloading | Bank account with two constructors (with and without an initial deposit), deposit, and withdrawal with a fixed $5 fee. |
 | [`Aluno`](Aluno) | Basic encapsulation | `Student` class that calculates the final grade (sum of 3 grades) and the points missing to reach a passing average of 60. |
 | [`Cinema`](Cinema) | Encapsulation / Business rules | Box-office system (`Ticket`) that applies a discount by age (children/seniors) or by student card. |
-| [`Composition`](Composition) | **Composition** + Enum | Order system: `Order` is composed of several `OrderItem`s, each linked to a `Product`; `Client` holds the buyer's data; `OrderStatus` is an enum (`PROCESSING`, `PENDING`, `SHIPPED`, `DELIVERED`). |
+| [`Composition`](Composition) | **Composition** + Enum | Order system: `Order` is composed of several `OrderItem`s, each linked to a `Course`; `Client` holds the buyer's data; `OrderStatus` is an enum (`PROCESSING`, `PENDING`, `SHIPPED`, `DELIVERED`). |
 | [`DateTime`](DateTime) | `java.time` API | Exercise comparing `LocalDate`, `LocalDateTime`, and `Instant`, including parsing and formatting with `DateTimeFormatter`. |
 | [`Dolar`](Dolar) | Static utility method | Dollar-to-real converter, applying a 6% IOF (financial tax) on the exchange rate. |
 | [`Employee`](Employee) | Basic encapsulation | `Employee` class (`Salary` package) with net salary calculation and percentage-based raise. |
 | [`Employees`](Employees) | **Collections** (`List`) + Streams | Registers several employees in a list, validates duplicate IDs, and applies a salary raise using a `Stream`. |
-| [`Estudo vetores`](Estudo%20vetores) | Arrays of objects | Reads N products via `Scanner` and calculates the average price using an array of `Product`. |
+| [`Estudo vetores`](Estudo%20vetores) | Arrays of objects | Reads N products via `Scanner` and calculates the average price using an array of `Course`. |
 | [`ExceptionHandling`](ExceptionHandling) | **Exception handling** | Bank account with a `withdraw` method that throws a custom exception (`BusinessExceptions`, extending `RuntimeException`) when the amount exceeds the withdrawal limit or the available balance; the error is handled with `try/catch` in `Program`. |
 | [`Inheritance`](Inheritance) | **Inheritance** + `@Override` | `Account` → `BusinessAccount` (with credit limit and withdrawal fee) and `SavingsAccount` (savings account with interest rate) hierarchy. |
-| [`Inheritance1`](Inheritance1) | **Inheritance** + Polymorphism | `Product` → `ImportedProduct` (with customs fee) and `UsedProduct` (with manufacture date) hierarchy, each overriding `priceTag()`. |
+| [`Inheritance1`](Inheritance1) | **Inheritance** + Polymorphism | `Course` → `ImportedProduct` (with customs fee) and `UsedProduct` (with manufacture date) hierarchy, each overriding `priceTag()`. |
 | [`Inheritance2`](Inheritance2) | **Abstract class** + Polymorphism | `TaxPrayer` (abstract) → `Individual` and `Company` hierarchy, each calculating tax (`tax()`) with its own rule; uses `List<TaxPrayer>` to sum the total collected. |
 | [`Interfaces`](Interfaces) | **Interface** (`implements`) | Installment-contract system: the `OnlinePaymentService` interface defines `paymentFee()` and `interest()`, implemented by `PaypalService`; `ContractService` uses the interface to calculate a `Contract`'s `Installment`s without depending on a concrete implementation. |
 | [`Primeiroprojeto`](Primeiroprojeto) | Menu system (procedural) | Simple library system using static variables to store the state of a single book (register, borrow, return). |
@@ -89,9 +89,9 @@ Each project has its own `src/` folder. To compile and run manually:
 cd "ProjectName"
 javac -d bin $(find src -name "*.java")
 <<<<<<< HEAD:02- Intermediated Level/README.md
-java -cp bin application.application.application.application.Program   # or the main class name (application.application.application.Program.java)
+java -cp bin application.application.application.application.application.application.Program   # or the main class name (application.application.application.application.application.Program.java)
 =======
-java -cp bin application.Program   # or the main class name (Main.java)
+java -cp bin application.application.application.Program   # or the main class name (application.application.Program.java)
 >>>>>>> 70368d2fe610044a68ced1b9944e8c29b976be23:02- Intermediated Level/README - 02-Intermediate Level (EN).md
 ```
 
