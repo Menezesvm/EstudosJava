@@ -27,15 +27,15 @@ Cada subpasta é um mini-projeto independente (com sua própria pasta `src/`), r
 | [`AccountBank`](AccountBank) | Encapsulamento / Sobrecarga de construtor | Conta bancária com dois construtores (com e sem depósito inicial), depósito e saque com taxa fixa de $5. |
 | [`Aluno`](Aluno) | Encapsulamento básico | Classe `Student` que calcula a nota final (soma de 3 notas) e os pontos que faltam para atingir a média 60. |
 | [`Cinema`](Cinema) | Encapsulamento / Regras de negócio | Sistema de bilheteria (`Ticket`) que aplica desconto por idade (crianças/idosos) ou por carteirinha de estudante. |
-| [`Composition`](Composition) | **Composição** + Enum | Sistema de pedidos: `Order` é composto por vários `OrderItem`, cada um associado a um `Course`; `Client` guarda dados do comprador; `OrderStatus` é um enum (`PROCESSING`, `PENDING`, `SHIPPED`, `DELIVERED`). |
+| [`Composition`](Composition) | **Composição** + Enum | Sistema de pedidos: `Order` é composto por vários `OrderItem`, cada um associado a um `Product`; `Client` guarda dados do comprador; `OrderStatus` é um enum (`PROCESSING`, `PENDING`, `SHIPPED`, `DELIVERED`). |
 | [`DateTime`](DateTime) | API `java.time` | Exercício comparando `LocalDate`, `LocalDateTime` e `Instant`, incluindo parsing e formatação com `DateTimeFormatter`. |
 | [`Dolar`](Dolar) | Método estático utilitário | Conversor de dólar para real, aplicando IOF (6%) sobre o câmbio. |
 | [`Employee`](Employee) | Encapsulamento básico | Classe `Employee` (pacote `Salary`) com cálculo de salário líquido e reajuste percentual. |
 | [`Employees`](Employees) | **Coleções** (`List`) + Streams | Cadastro de vários funcionários em uma lista, validação de ID duplicado e reajuste salarial usando `Stream`. |
-| [`Estudo vetores`](Estudo%20vetores) | Vetores/Arrays de objetos | Leitura de N produtos via `Scanner` e cálculo da média de preços usando um array de `Course`. |
+| [`Estudo vetores`](Estudo%20vetores) | Vetores/Arrays de objetos | Leitura de N produtos via `Scanner` e cálculo da média de preços usando um array de `Product`. |
 | [`ExceptionHandling`](ExceptionHandling) | **Tratamento de exceções** | Conta bancária com saque (`withdraw`) que lança uma exceção customizada (`BusinessExceptions`, que estende `RuntimeException`) quando o valor excede o limite de saque ou o saldo disponível; erro tratado com `try/catch` no `Program`. |
 | [`Inheritance`](Inheritance) | **Herança** + `@Override` | Hierarquia `Account` → `BusinessAccount` (com limite de crédito e taxa de saque) e `SavingsAccount` (conta poupança com taxa de juros). |
-| [`Inheritance1`](Inheritance1) | **Herança** + Polimorfismo | Hierarquia `Course` → `ImportedProduct` (com taxa de importação) e `UsedProduct` (com data de fabricação), cada um sobrescrevendo `priceTag()`. |
+| [`Inheritance1`](Inheritance1) | **Herança** + Polimorfismo | Hierarquia `Product` → `ImportedProduct` (com taxa de importação) e `UsedProduct` (com data de fabricação), cada um sobrescrevendo `priceTag()`. |
 | [`Inheritance2`](Inheritance2) | **Classe abstrata** + Polimorfismo | Hierarquia `TaxPrayer` (abstrata) → `Individual` e `Company`, cada uma calculando o imposto (`tax()`) com sua própria regra; usa `List<TaxPrayer>` para somar o total arrecadado. |
 | [`Interfaces`](Interfaces) | **Interface** (`implements`) | Sistema de contratos parcelados: a interface `OnlinePaymentService` define os métodos `paymentFee()` e `interest()`, implementados por `PaypalService`; `ContractService` usa a interface para calcular as parcelas (`Installment`) de um `Contract`, sem depender de uma implementação concreta. |
 | [`Primeiroprojeto`](Primeiroprojeto) | Sistema de menu (procedural) | Sistema de biblioteca simples usando variáveis estáticas para armazenar o estado de um único livro (cadastrar, emprestar, devolver). |
@@ -87,11 +87,7 @@ Cada projeto possui sua própria pasta `src/`. Para compilar e rodar manualmente
 # Exemplo genérico (ajuste os pacotes/caminhos conforme o projeto)
 cd "NomeDoProjeto"
 javac -d bin $(find src -name "*.java")
-<<<<<<< HEAD:02- Intermediated Level/LEIAME(PT).md
-java -cp bin application.application.application.application.application.application.application.Program   # ou o nome da classe principal (application.application.application.application.application.application.Program.java)
-=======
-java -cp bin application.application.application.Program   # ou o nome da classe principal (application.application.Program.java)
->>>>>>> 70368d2fe610044a68ced1b9944e8c29b976be23:02- Intermediated Level/README - 02-Intermediate Level (PT).md
+java -cp bin application.Program   # ou o nome da classe principal (application.Program.java)
 ```
 
 Ou abra a pasta diretamente na sua IDE (IntelliJ IDEA, VS Code com extensão Java, Eclipse) e execute a classe que contém o método `main` — geralmente localizada em `src/application/Program.java` ou `src/application/Main.java` (alguns projetos mais antigos usam `Application` com "A" maiúsculo).
