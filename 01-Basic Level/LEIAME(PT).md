@@ -158,7 +158,7 @@ Ou use sua IDE preferida (IntelliJ IDEA, VS Code com extensões Java, Eclipse, e
 ## Próximos passos
 
 Depois de concluir todos os projetos desta pasta:
-- Avance para conceitos intermediários de Java (Programação Orientada a Objetos) — veja [`02-Intermediate Level`](../02-%20Intermediated%20Level/README%20-%2002-Intermediate%20Level.md)
+- Avance para conceitos intermediários de Java (Programação Orientada a Objetos) — veja [`02-Intermediate Level`](../02-%20Intermediated%20Level/README%20-%2002-Intermediate%20Level%20(PT).md)
 - Aprenda sobre classes, herança e polimorfismo
 - Explore coleções e estruturas de dados
 - Estude tratamento de exceções em profundidade

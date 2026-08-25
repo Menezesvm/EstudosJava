@@ -158,7 +158,7 @@ Or use your preferred IDE (IntelliJ IDEA, VS Code with Java extensions, Eclipse,
 ## Next Steps
 
 After completing all projects in this folder:
-- Move to intermediate-level Java concepts (Object-Oriented Programming) — see [`02-Intermediate Level`](../02-%20Intermediated%20Level/README%20-%2002-Intermediate%20Level.md)
+- Move to intermediate-level Java concepts (Object-Oriented Programming) — see [`02-Intermediate Level`](../02-%20Intermediated%20Level/README%20-%2002-Intermediate%20Level%20(EN).md)
 - Learn about classes, inheritance, and polymorphism
 - Explore collections and data structures
 - Study exception handling in depth
