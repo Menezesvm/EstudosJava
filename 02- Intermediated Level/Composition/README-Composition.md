@@ -1,4 +1,4 @@
-# Composition — Order / OrderItem / Product / Client
+ # Composition — Order / OrderItem / Product / Client
 
 Exercício sobre **composição de objetos**: um `Order` (pedido) é formado por vários `OrderItem`, e cada item referencia um `Product`. Diferente de herança, aqui as classes não têm relação "é um", e sim "tem um" — um pedido *tem* um cliente, *tem* vários itens.
 

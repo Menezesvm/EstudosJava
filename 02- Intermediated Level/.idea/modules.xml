@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/02- Intermediated Level.iml" filepath="$PROJECT_DIR$/.idea/02- Intermediated Level.iml" />
       <module fileurl="file://$PROJECT_DIR$/../03-Advanced Level/03-Advanced Level.iml" filepath="$PROJECT_DIR$/../03-Advanced Level/03-Advanced Level.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../03-Advanced Level/04- Functional Programming in Java/04- Functional Programming in Java.iml" filepath="$PROJECT_DIR$/../03-Advanced Level/04- Functional Programming in Java/04- Functional Programming in Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/AccountBank/AccountBank.iml" filepath="$PROJECT_DIR$/AccountBank/AccountBank.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aluno/Aluno.iml" filepath="$PROJECT_DIR$/Aluno/Aluno.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cinema/Cinema.iml" filepath="$PROJECT_DIR$/Cinema/Cinema.iml" />
@@ -21,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/Inheritance1/Inheritance1.iml" filepath="$PROJECT_DIR$/Inheritance1/Inheritance1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inheritance2/Inheritance2.iml" filepath="$PROJECT_DIR$/Inheritance2/Inheritance2.iml" />
       <module fileurl="file://$PROJECT_DIR$/../03-Advanced Level/InterfaceSet/InterfaceSet.iml" filepath="$PROJECT_DIR$/../03-Advanced Level/InterfaceSet/InterfaceSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../03-Advanced Level/04- Functional Programming in Java/Lambda/Lambda.iml" filepath="$PROJECT_DIR$/../03-Advanced Level/04- Functional Programming in Java/Lambda/Lambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/../03-Advanced Level/Map/Map.iml" filepath="$PROJECT_DIR$/../03-Advanced Level/Map/Map.iml" />
       <module fileurl="file://$PROJECT_DIR$/Primeiroprojeto/Primeiroprojeto.iml" filepath="$PROJECT_DIR$/Primeiroprojeto/Primeiroprojeto.iml" />
       <module fileurl="file://$PROJECT_DIR$/Rent/Rent.iml" filepath="$PROJECT_DIR$/Rent/Rent.iml" />

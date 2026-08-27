@@ -15,7 +15,7 @@ Each subfolder is an independent mini-project (with its own `src/` folder), repr
 
 ## Folder Structure
 
-| Project | Main concept | Description |
+| Project | Program concept | Description |
 |---|---|---|
 | [`Generics1`](Generics1) | **Generic class** | `Box<T>` — a generic container with `guardar(T item)` (store) and `pegar()` (retrieve), instantiated as `Box<String>` and `Box<Integer>` to show the same class working with different types. |
 | [`Generics2`](Generics2) | **Bounded type** (`<T extends Comparable<T>>`) | `Util.major(List<T>)` — a generic method that finds the largest element of any list whose type implements `Comparable`. Tested with `List<Integer>` and `List<Product>` (`Product` implements `Comparable<Product>`, comparing by price). |

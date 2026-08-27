@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/03-Advanced Level.iml" filepath="$PROJECT_DIR$/.idea/03-Advanced Level.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generics1/Generics1.iml" filepath="$PROJECT_DIR$/Generics1/Generics1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generics2/Generics2.iml" filepath="$PROJECT_DIR$/Generics2/Generics2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterfaceSet/InterfaceSet.iml" filepath="$PROJECT_DIR$/InterfaceSet/InterfaceSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Map/Map.iml" filepath="$PROJECT_DIR$/Map/Map.iml" />
+    </modules>
+  </component>
+</project>

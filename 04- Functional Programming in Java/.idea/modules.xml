@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/04- Functional Programming in Java.iml" filepath="$PROJECT_DIR$/04- Functional Programming in Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lambda/Lambda.iml" filepath="$PROJECT_DIR$/Lambda/Lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Multiexercises function/Multiexercises function.iml" filepath="$PROJECT_DIR$/Multiexercises function/Multiexercises function.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pipeline/Pipeline.iml" filepath="$PROJECT_DIR$/Pipeline/Pipeline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stream/Stream.iml" filepath="$PROJECT_DIR$/Stream/Stream.iml" />
+    </modules>
+  </component>
+</project>
