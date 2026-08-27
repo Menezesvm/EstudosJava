@@ -6,7 +6,7 @@ If you're a recruiter or hiring manager: quick highlights are below so you can e
 
 ## Quick highlights
 
-- Language focus: Java (core, OOP, generics, collections — `Set`/`Map`, exception handling)
+- Language focus: Java (core, OOP, generics, collections — `Set`/`Map`, exception handling, lambda expressions, Streams API)
 - Depth-over-speed approach: each topic is studied in detail, including custom README files with UML/class diagrams for the most conceptually rich exercises
 - Currently progressing toward Spring Boot, backed by a structured study roadmap
 
@@ -19,6 +19,7 @@ The repository is organized by learning level:
 | [`01-Basic Level`](01-Basic%20Level) | Fundamentals: syntax, control flow, basic OOP, small procedural exercises |
 | [`02- Intermediated Level`](02-%20Intermediated%20Level) | Encapsulation, inheritance, composition, interfaces, exception handling, collections |
 | [`03-Advanced Level`](03-Advanced%20Level) | Generics, bounded types, collections (`Set`, `Map`) |
+| [`04- Functional Programming in Java`](04-%20Functional%20Programming%20in%20Java) | Lambda expressions, functional interfaces, Streams API (`map`, `filter`, `reduce`, `collect`) |
 
 ## Featured projects
 

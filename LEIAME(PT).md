@@ -4,7 +4,7 @@ Bem-vindo — este repositório contém projetos e exercícios em Java seleciona
 
 ## O que recrutadores devem saber
 
-- Foco na linguagem: Java (conceitos fundamentais, POO, generics, coleções — `Set`/`Map`, tratamento de exceções)
+- Foco na linguagem: Java (conceitos fundamentais, POO, generics, coleções — `Set`/`Map`, tratamento de exceções, expressões lambda, API de Streams)
 - Abordagem de profundidade em vez de velocidade: cada tópico é estudado em detalhe, incluindo READMEs próprios com diagramas UML/de classes para os exercícios conceitualmente mais ricos
 - Atualmente avançando em direção a Spring Boot, seguindo um roteiro de estudos estruturado
 
@@ -17,6 +17,7 @@ O repositório é organizado por nível de aprendizado:
 | [`01-Basic Level`](01-Basic%20Level) | Fundamentos: sintaxe, controle de fluxo, POO básica, exercícios procedurais pequenos |
 | [`02- Intermediated Level`](02-%20Intermediated%20Level) | Encapsulamento, herança, composição, interfaces, tratamento de exceções, coleções |
 | [`03-Advanced Level`](03-Advanced%20Level) | Generics, tipos delimitados (*bounded types*), coleções (`Set`, `Map`) |
+| [`04- Functional Programming in Java`](04-%20Functional%20Programming%20in%20Java) | Expressões lambda, interfaces funcionais, API de Streams (`map`, `filter`, `reduce`, `collect`) |
 
 ## Projetos em destaque
 
